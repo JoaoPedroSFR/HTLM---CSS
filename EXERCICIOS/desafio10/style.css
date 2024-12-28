@@ -9,7 +9,7 @@
 body{
     background-color: rgb(167, 240, 167);
     margin: 0%;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 
@@ -18,17 +18,28 @@ header{
     font-family: sans-serif;
     font-size: 1em;
     padding: 30px;
-    background-image: linear-gradient(to bottom,#53ff45,#011936);
+    background-image: linear-gradient(to bottom,rgb(147, 241, 147),#1B5936);
     color: white;
+    text-shadow: 1px 4px 5px black;
+    text-decoration: none;
 }
 header > menu{
     text-align: left;
     margin-left: -0%;
-    color: white;    
+    color: white; 
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-right: 2%;
 }
 
 h1{
     font-size: 3em;
+    
 }
 
 main{
@@ -37,17 +48,50 @@ main{
     color: black;
     padding: 1%;
     margin: 4%;
+    box-shadow: 1px 1px 6px 2px black;
     
 
 }
 h2{
-    color: green;
-    text-align: ;
+    color: #1B5936;
+    text-align:justify;
     font-family: idroid, Arial, Helvetica, sans-serif;
 }
 h3{
-    color: green;
-    background-color: rgb(25, 221, 25)
-    text-align: ;
+    color: #1B5936;
+    background-image: linear-gradient(to right ,rgb(171, 243, 171),#dae7e0);
     font-family: idroid, Arial, Helvetica, sans-serif;
+}
+
+footer{
+    text-align: center;
+    background-color: #1B5936;
+    color: white;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+
+    background-color:#CEF2DE;
+    border-radius: 1% 1%;
+    padding-bottom: 1%;
+    
+}
+div > h1{
+    color: white;
+    font-size: 2em;
+    background-color:#82D9A0 ;
+}
+
+div#um{
+    background-color:#1B5936 ;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
