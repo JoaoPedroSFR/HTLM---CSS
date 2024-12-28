@@ -1,97 +1,132 @@
 @UTF-8;
+
 @font-face {
-    font-family:'idroid';
+    font-family: 'idroid';
     src: url(fontes/idroid.otf) format(opentype);
 }
 
+p {
+    text-indent: 30px;
+}
 
 
-body{
+body {
     background-color: rgb(167, 240, 167);
     margin: 0%;
     font-size: 1em;
 }
 
 
-header{
+header {
     text-align: center;
     font-family: sans-serif;
     font-size: 1em;
     padding: 30px;
-    background-image: linear-gradient(to bottom,rgb(147, 241, 147),#1B5936);
+    background-image: linear-gradient(to bottom, rgb(147, 241, 147), #1B5936);
     color: white;
     text-shadow: 1px 4px 5px black;
     text-decoration: none;
 }
-header > menu{
-    text-align: left;
-    margin-left: -0%;
-    color: white; 
-    
+
+menu{
+    margin-left: -40px;
+    margin-bottom: -25px;
 }
 
-a{
-    text-decoration: none;
+a.menu{
     color: white;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #1B5936;
     font-weight: bolder;
     margin-right: 2%;
 }
+header > menu {
+    text-align: left;
+    color: white;
 
-h1{
-    font-size: 3em;
-    
 }
 
-main{
+img.links {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 3em;
+
+}
+
+main {
     text-align: justify;
     background-color: white;
     color: black;
     padding: 1%;
     margin: 4%;
     box-shadow: 1px 1px 6px 2px black;
-    
+
 
 }
-h2{
+
+h2 {
     color: #1B5936;
-    text-align:justify;
-    font-family: idroid, Arial, Helvetica, sans-serif;
-}
-h3{
-    color: #1B5936;
-    background-image: linear-gradient(to right ,rgb(171, 243, 171),#dae7e0);
+    text-align: justify;
     font-family: idroid, Arial, Helvetica, sans-serif;
 }
 
-footer{
+h3 {
+    color: #1B5936;
+    background-image: linear-gradient(to right, rgb(171, 243, 171), white);
+    font-family: idroid, Arial, Helvetica, sans-serif;
+}
+
+footer {
     text-align: center;
     background-color: #1B5936;
     color: white;
 
 }
 
-img{
+img {
     display: block;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-div{
-
-    background-color:#CEF2DE;
-    border-radius: 1% 1%;
-    padding-bottom: 1%;
-    
+div#video {
+    background-color: #1B5936;
+    max-width: 90%;
 }
-div > h1{
+
+div.redondo {
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #2FA866;
+    border-radius: 10px;
     color: white;
-    font-size: 2em;
-    background-color:#82D9A0 ;
 }
 
-div#um{
-    background-color:#1B5936 ;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+div.negrito {
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #CEF2DE;
+    border-radius: 1% 1%;
+    padding-bottom: 0%;
+    margin-top: -4%;
+}
+ol{
+    column-count: 2;
+    list-style-type: none;
+}
+li::before{
+   content: '\2713';
+}
+p#final{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-indent: 30px;
+    font-family: sans-serif;
 }
