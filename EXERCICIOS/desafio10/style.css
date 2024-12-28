@@ -98,7 +98,18 @@ img {
 
 div#video {
     background-color: #1B5936;
-    max-width: 90%;
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+iframe{
+    width: 95%;
+    height: 95%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 div.redondo {
@@ -115,7 +126,7 @@ div.negrito {
     background-color: #CEF2DE;
     border-radius: 1% 1%;
     padding-bottom: 0%;
-    margin-top: -4%;
+
 }
 ol{
     column-count: 2;
@@ -130,3 +141,5 @@ p#final{
     text-indent: 30px;
     font-family: sans-serif;
 }
+
+
