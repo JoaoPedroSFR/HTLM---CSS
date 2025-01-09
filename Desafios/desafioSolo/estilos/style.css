@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+
+body{
+    background-color: lightblue;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Alinha os links no centro */
+    padding: 20px;
+    background-color: #333;
+}
+
+/* Estilo dos links */
+nav ul {
+    list-style: none; /* Remove os pontos da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Exibe os links em linha */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os links */
+}
+
+/* Caixa de fundo atrás dos links */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Adiciona o preenchimento para formar a caixa */
+    background-color: #555; /* Cor de fundo da caixa */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+header > a:hover{
+    background-color: #02476F;
+}
+
+#im01{
+    background-image: url(../imagens/back1.png);
+    background-position: center center;
+
+}
+section{
+    padding-left: 30px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
