@@ -1,110 +1,99 @@
 @UTF-8;
 
-@font-face{
-    font-family:'Sriracha';
+@font-face {
+    font-family: 'Sriracha';
     src: url(../fontes/Sriracha.ttf) format(truetype);
 }
-@font-face{
+
+@font-face {
     font-family: 'PassionOne';
     src: url(../fontes/PassionOne.ttf) format(truetype);
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-size: 1em;
 }
 
 
-body{
- display: block;
+body,
+html {
+    min-height: 100vh;
 }
 
-article{
-    display: block;
-    unicode-bidi: isolate;
-}
-
-header{
+header {
     background-color: black;
     color: white;
     text-align: center;
-    min-height: 30vh;
-    
+
 }
-header h1{
-    padding: 40px 0px 0px 0px;
+
+header h1 {
+    padding-top: 30px;
     text-align: center;
-    font-size: 10em;
-    font-family: PassionOne ;
-}
-header p{
-    font-size: 2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9vw;
+    font-family: PassionOne;
 }
 
-article.branco{
+header p {
+    padding-bottom: 30px;
+}
+
+article {
+    padding-left: 30px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    font-family: sriracha;
+    font-size: 3vw;
+}
+
+
+
+article.branco {
     background-color: white;
-    
-    font-style: italic;
-    padding-left: 85px;
-    padding-bottom: 10vh;
-    padding-top: 10vh;
-
-}
-p{
-    font-size: 3.5vw;
-    padding-bottom: 2em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    font-family: Sriracha;
-
+    color: black;
 }
 
-article.imagem{
-    background-size: 100% 100%;
+
+article.imagem {
+    background-size: cover;
     background-attachment: fixed;
     background-position: right center;
-    height: 90vh;
-    position: relative;
-    
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.288);
 }
 
-article.imagem > p{
-    background-color: rgba(0, 0, 0, 0.514);
+article.imagem > p {
     color: white;
-    font-size: 2.5vw;
-
-    
-    display: inline-block;
     padding: 10px;
-    padding-top: 30px;
-    margin-left: 85px;
-    margin-bottom: 30%;
-
-    position: absolute;
-    text-shadow: 1px 1px 0px black;
-
-
+    background-color: rgba(0, 0, 0, 0.651);
+    display: inline-block;
 }
 
-#im01{
+
+article>p {
+    padding-bottom: 2em;
+}
+
+#im01 {
     background-image: url(../imagens/flores.png);
-    color: white;
-}#im02{
-    background-image: url(../imagens/papel.jpg);
-    color: white;
+
 }
 
-footer{
+#im02 {
+    background-image: url(../imagens/papel.jpg);
+
+}
+
+footer {
     background-color: black;
     color: white;
     text-align: center;
-    width: 100%;
-    height: -50px;
 
 }
 
-footer p{
-    font-size: 1.6em;
+footer p {
+    font-size: 1em;
+    padding: 10px;
 }
