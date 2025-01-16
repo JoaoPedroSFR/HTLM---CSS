@@ -1,0 +1,147 @@
+@UTF-8;
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+p {
+    text-indent: 30px;
+}
+
+
+body {
+    background-color: rgb(167, 240, 167);
+    margin: auto;
+    font-size: 1em;
+}
+
+
+header {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, rgb(147, 241, 147), #1B5936);
+    color: white;
+    text-shadow: 1px 4px 5px black;
+    text-decoration: none;
+}
+
+menu{
+    margin-left: -40px;
+    margin-bottom: -25px;
+}
+
+a.menu{
+    color: white;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #1B5936;
+    font-weight: bolder;
+    margin-right: 2%;
+}
+header > menu {
+    text-align: left;
+    color: white;
+
+}
+
+img.links {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 3em;
+
+}
+
+main {
+    text-align: justify;
+    background-color: white;
+    color: black;
+    padding: 1%;
+    margin: auto;
+    box-shadow: 1px 1px 6px 2px black;
+    width: 560px;
+    height: auto;
+
+
+}
+
+h2 {
+    color: #1B5936;
+    text-align: justify;
+    font-family: idroid, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #1B5936;
+    background-image: linear-gradient(to right, rgb(171, 243, 171), white);
+    font-family: idroid, Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #1B5936;
+    color: white;
+
+}
+
+img {
+    display: block;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#video {
+    background-color: #1B5936;
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+iframe{
+    width: 95%;
+    height: 95%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+div.redondo {
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #2FA866;
+    border-radius: 10px;
+    color: white;
+}
+
+div.negrito {
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #CEF2DE;
+    border-radius: 1% 1%;
+    padding-bottom: 0%;
+
+}
+ol{
+    column-count: 2;
+    list-style-type: none;
+}
+li::before{
+   content: '\2713';
+}
+p#final{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-indent: 30px;
+    font-family: sans-serif;
+}
+
+
