@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablea 005</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        table{
+            border-collapse: collapse;
+            min-width: 500px;
+            margin: auto;
+        }
+        caption{
+            width: 500px;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .destaque{
+            background-color: aqua;
+        }
+        .cnome{
+            background-color: blue;
+        }
+        .vermelho{
+            background-color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Exercicio Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="vermelho" span="2">
+            <col class="cprofisssao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">idade</th>
+            <th scope="col">sexo</th>
+            <th scope="col">Profissao</th>
+
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>10</td>
+            <td>femin</td>
+            <td>Jonalista</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>10</td>
+            <td>femin</td>
+            <td>Jonalista</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>10</td>
+            <td>femin</td>
+            <td>Jonalista</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>10</td>
+            <td>femin</td>
+            <td>Jonalista</td>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>
