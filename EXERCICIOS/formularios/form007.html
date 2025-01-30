@@ -1,0 +1,48 @@
+<h1>Exemplo de formulario</h1>
+
+<form action="cadastro.php" autocomplete="on" method="post"> 
+    
+    <p>
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <option value="" selected>---Escolha---</option>
+            <optgroup label="Regial SUdeste">
+                
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="To">To</option>
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+            </optgroup><optgroup label="Reaigal Nordeste">
+                
+                <option value="RN">RN</option>
+                <option value="MA">ma</option>
+            </optgroup>
+        </select>
+    </p>
+
+    <p>
+        <label for="iprof">Profissao</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="Admin">Admin</option>
+            <option value="Dev">Dev</option>
+            <option value="Prof">Prof</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="imsg">Mesagem</label>
+        <textarea name="mensagem" id="imsg" cols="20" rows="10"></textarea>
+    </p>
+
+
+
+
+
+
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>

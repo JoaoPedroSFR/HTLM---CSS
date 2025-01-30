@@ -1,0 +1,37 @@
+Capitulo 24
+Formularios
+Utilizamos o FORM para criar os formularios
+
+Devemos escolher o method que por padrao vem get e mostra na barra de endereço todos os dados apos enviado. É limitado a 3000bytes, temos o outro method que é o post ele nao mostra na barra de endereços porem ainda fica visivel. Devemos usar POST para envio de arquivos.
+
+Label - Utilizamos para trabalhar o codigo temos que atribuir nome e id para que a linguagem de programação consiga acessar
+
+Temos também  o input
+
+Por exemplo 
+text - Utilizamos para caixas de textos como nome, sobrenome, etc.
+    Alguns atributos podemos usar dentro dos inputs como: autocomplete, max, min, maxlength, size, placeholder(Texto dentro do input para usar como exemplo), required(para obrigar a ser digitado algo no campo)
+submit - Geralmente usado como botao Enviar
+reset - geralmente usado como botao limpar
+password - Utilizamos para senhas
+number - dentro podermos usar value para atribuir um numero padrao, step para saber o tamanho ao aumentar ou diminuir.
+month - Utilizamos para mes
+date - para data 
+time - para hora
+email- para email
+tel - para telefones, temos opções dentro de telefone que sao um pouco complexas
+radio - para sexo podemos utiliazar o checked para saber a posição inicial marcada
+checkbox - Utilizamos para escolher algumas de varia opções
+file- utilizamos para arquivos
+range - barra para escolher nivel
+color- para definir cores
+----------------------------------------------------------------------------
+Alem do input podemos utlizar outros comandos para dar entrada de usuário como:
+    SELECT - e dentro dele o option que cria uma lista para o usuario escolher. Podemos usar também o OPTGROup para organizar as opções dentro do select.
+
+    DATALIST - Alem de também criar uma lista ele deixa o campo aberto para digitação. Também deve ser utlizado o option
+
+    TEXTAREA - Area para escrever textos, podemos configurar a quantidade de rows e cols padrao. Deve ser usado o method POST também
+
+Temos o fieldset que demarca uma area para trabalharmos o label e input lembrar sempre de colocar um legend para explicar o que o campo vai fazer
+
