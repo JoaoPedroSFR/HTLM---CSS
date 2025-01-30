@@ -33,5 +33,9 @@ Alem do input podemos utlizar outros comandos para dar entrada de usuário como:
 
     TEXTAREA - Area para escrever textos, podemos configurar a quantidade de rows e cols padrao. Deve ser usado o method POST também
 
+    OUTPUT - Mostrar algo na tela.
+
 Temos o fieldset que demarca uma area para trabalharmos o label e input lembrar sempre de colocar um legend para explicar o que o campo vai fazer
 
+Capitulo 25 - Media Query.
+Serve para diversificar o site para abrir em varios tipos de tecnologias diferentes, varios tamanhos de telas diferentes
