@@ -36,6 +36,13 @@ Alem do input podemos utlizar outros comandos para dar entrada de usuário como:
     OUTPUT - Mostrar algo na tela.
 
 Temos o fieldset que demarca uma area para trabalharmos o label e input lembrar sempre de colocar um legend para explicar o que o campo vai fazer
-
+=-========================================================================
 Capitulo 25 - Media Query.
-Serve para diversificar o site para abrir em varios tipos de tecnologias diferentes, varios tamanhos de telas diferentes
+Serve para diversificar o site para abrir em varios tipos de tecnologias diferentes, varios tamanhos de telas diferentes.
+
+Media query = media type + media feature
+
+Para utiliazar criamos um link css e deifinimos o tipo de media 
+tipos - print, screen, all
+
+Para usar media feature devemos utilizar parenteses em midia screen(orientation:portrait ou landscape)
