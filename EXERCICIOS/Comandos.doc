@@ -46,3 +46,11 @@ Para utiliazar criamos um link css e deifinimos o tipo de media
 tipos - print, screen, all
 
 Para usar media feature devemos utilizar parenteses em midia screen(orientation:portrait ou landscape)
+Podemos usar tambem o @media dentro do styles e utilizar todos os estilos em um so arquivo
+
+Devices breakpoints - definir tamanho da tela de cada dispositivos
+Pequenas telas - até 600px
+Celular - 600 ate 768px
+Tablet - 769 ate 992px
+Desktops - 993 até 1200px
+Grandes telas - acima de 1200px
