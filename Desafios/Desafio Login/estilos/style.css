@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*
+49a09d
+5f2c82
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+background-color: #5f2c82 ;
+}
+
+section{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#imagem{
+    background-image: url(../imagens/pexels-lawlesscapture-13737562.jpg);
+    background-size: cover;
+    height: 200px;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 80px;
+}
+#formulario{
+    padding: 10px;
+}
+#formulario > h1{
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+
+#formulario > p{
+    text-align: justify;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+

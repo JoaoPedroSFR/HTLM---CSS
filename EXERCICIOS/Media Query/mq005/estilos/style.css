@@ -24,7 +24,7 @@ menu{
     display: none;
 }
 
-menu ul{
+menu > ul{
     list-style-type: none;
 }
 
@@ -39,7 +39,7 @@ menu > ul > li > a{
     border-top: 2px solid rgb(175, 173, 173);
 
 }
-#burger{
+#burguer{
     background-color: rgb(15, 15, 15);
     display: block;
     color: white;
@@ -47,12 +47,12 @@ menu > ul > li > a{
     padding: 10px;
 }
 
-#burger:hover{
+#burguer:hover{
     background-color: white;
     color: black;
 }
 
-menu >ul >li> a:hover{
+menu > ul >li> a:hover{
     background-color: gray;
 }
 
@@ -65,11 +65,11 @@ main{
     margin-top: 10px;
 }
 
-main >article>h1{
+main > article > h1{
     padding-bottom: 20px;
 }
 
-article >p{
+article > p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
