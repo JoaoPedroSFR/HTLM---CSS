@@ -1,56 +1,143 @@
-Capitulo 24
-Formularios
-Utilizamos o FORM para criar os formularios
+Primeiros passos
+    - Primeiros passos
+    Preparação do ambiente
+    Semantica HTML5
+    Textos
+    Titulos
+    Ligações multimidia
+    Estilos
 
-Devemos escolher o method que por padrao vem get e mostra na barra de endereço todos os dados apos enviado. É limitado a 3000bytes, temos o outro method que é o post ele nao mostra na barra de endereços porem ainda fica visivel. Devemos usar POST para envio de arquivos.
+Deixando as coisas mais bonitas
+    Fundamentos de design
+    Psicologia das cores
+    TIpografia
+    Elementos CSS
+    Modelo de caixas
+    Wireframe
+    Responsividade
 
-Label - Utilizamos para trabalhar o codigo temos que atribuir nome e id para que a linguagem de programação consiga acessar
+Colocando um prototipo no ar
+    Versionamento de Software
+    Hospedagem de sites estaticos
+    Tabelas
 
-Temos também  o input
+Aprofundando conhecimentos
+    Quadras em linha
+   ===========================================================================================
+    Formularios
+                    Capitulo 24
+                      Formularios
+                    Utilizamos o FORM para criar os formularios
 
-Por exemplo 
-text - Utilizamos para caixas de textos como nome, sobrenome, etc.
-    Alguns atributos podemos usar dentro dos inputs como: autocomplete, max, min, maxlength, size, placeholder(Texto dentro do input para usar como exemplo), required(para obrigar a ser digitado algo no campo)
-submit - Geralmente usado como botao Enviar
-reset - geralmente usado como botao limpar
-password - Utilizamos para senhas
-number - dentro podermos usar value para atribuir um numero padrao, step para saber o tamanho ao aumentar ou diminuir.
-month - Utilizamos para mes
-date - para data 
-time - para hora
-email- para email
-tel - para telefones, temos opções dentro de telefone que sao um pouco complexas
-radio - para sexo podemos utiliazar o checked para saber a posição inicial marcada
-checkbox - Utilizamos para escolher algumas de varia opções
-file- utilizamos para arquivos
-range - barra para escolher nivel
-color- para definir cores
-----------------------------------------------------------------------------
-Alem do input podemos utlizar outros comandos para dar entrada de usuário como:
-    SELECT - e dentro dele o option que cria uma lista para o usuario escolher. Podemos usar também o OPTGROup para organizar as opções dentro do select.
+                    Devemos escolher o method que por padrao vem get e mostra na barra de endereço todos os dados apos enviado. É limitado a 3000bytes, temos o outro method que é o post ele nao mostra na barra de endereços porem ainda fica visivel. Devemos usar POST para envio de arquivos.
 
-    DATALIST - Alem de também criar uma lista ele deixa o campo aberto para digitação. Também deve ser utlizado o option
+                    Label - Utilizamos para trabalhar o codigo temos que atribuir nome e id para que a linguagem de programação consiga acessar
 
-    TEXTAREA - Area para escrever textos, podemos configurar a quantidade de rows e cols padrao. Deve ser usado o method POST também
+                    Temos também  o input
 
-    OUTPUT - Mostrar algo na tela.
+                    Por exemplo 
+                    text - Utilizamos para caixas de textos como nome, sobrenome, etc.
+                        Alguns atributos podemos usar dentro dos inputs como: autocomplete, max, min, maxlength, size, placeholder(Texto dentro do input para usar como exemplo), required(para obrigar a ser digitado algo no campo)
+                    submit - Geralmente usado como botao Enviar
+                    reset - geralmente usado como botao limpar
+                    password - Utilizamos para senhas
+                    number - dentro podermos usar value para atribuir um numero padrao, step para saber o tamanho ao aumentar ou diminuir.
+                    month - Utilizamos para mes
+                    date - para data 
+                    time - para hora
+                    email- para email
+                    tel - para telefones, temos opções dentro de telefone que sao um pouco complexas
+                    radio - para sexo podemos utiliazar o checked para saber a posição inicial marcada
+                    checkbox - Utilizamos para escolher algumas de varia opções
+                    file- utilizamos para arquivos
+                    range - barra para escolher nivel
+                    color- para definir cores
+                    ----------------------------------------------------------------------------
+                    Alem do input podemos utlizar outros comandos para dar entrada de usuário como:
+                        SELECT - e dentro dele o option que cria uma lista para o usuario escolher. Podemos usar também o OPTGROup para organizar as opções dentro do select.
 
-Temos o fieldset que demarca uma area para trabalharmos o label e input lembrar sempre de colocar um legend para explicar o que o campo vai fazer
+                        DATALIST - Alem de também criar uma lista ele deixa o campo aberto para digitação. Também deve ser utlizado o option
+
+                        TEXTAREA - Area para escrever textos, podemos configurar a quantidade de rows e cols padrao. Deve ser usado o method POST também
+
+                        OUTPUT - Mostrar algo na tela.
+
+                    Temos o fieldset que demarca uma area para trabalharmos o label e input lembrar sempre de colocar um legend para explicar o que o campo vai fazer
+    ========================================================================================
+    Media Queries
+        Capitulo 25 - Media Query.
+        Serve para diversificar o site para abrir em varios tipos de tecnologias diferentes, varios tamanhos de telas diferentes.
+
+        Media query = media type + media feature
+
+        Para utiliazar criamos um link css e deifinimos o tipo de media 
+        tipos - print, screen, all
+
+        Para usar media feature devemos utilizar parenteses em midia screen(orientation:portrait ou landscape)
+        Podemos usar tambem o @media dentro do styles e utilizar todos os estilos em um so arquivo
+
+        Devices breakpoints - definir tamanho da tela de cada dispositivos
+        Pequenas telas - até 600px
+        Celular - 600 ate 768px
+        Tablet - 769 ate 992px
+        Desktops - 993 até 1200px
+        Grandes telas - acima de 1200px
+
+============================================================================
+
+
+    Mobile First
+
+            USAMOS UM LINK CSS PARA CRIAR UM ARQUIVO DE MEDIA Query
+            
+            @MEDIA screen AND(MIN-WIDTH:) AND (MAX-HEIGHT:){
+
+            }
+
+
 =-========================================================================
-Capitulo 25 - Media Query.
-Serve para diversificar o site para abrir em varios tipos de tecnologias diferentes, varios tamanhos de telas diferentes.
 
-Media query = media type + media feature
+    Novas tecnologias
 
-Para utiliazar criamos um link css e deifinimos o tipo de media 
-tipos - print, screen, all
+        FLEXBOX - Trabalha somente em uma dimensao horizontal ou vertical
+        COntainer - caixa pai 
+        Podemos esticar, contrair, colocar um abaixo do outro.
 
-Para usar media feature devemos utilizar parenteses em midia screen(orientation:portrait ou landscape)
-Podemos usar tambem o @media dentro do styles e utilizar todos os estilos em um so arquivo
+        Geralmente colocamos Flex no elemento pai os itens serão utilizados outros comandos
 
-Devices breakpoints - definir tamanho da tela de cada dispositivos
-Pequenas telas - até 600px
-Celular - 600 ate 768px
-Tablet - 769 ate 992px
-Desktops - 993 até 1200px
-Grandes telas - acima de 1200px
+        Nos filhos podemos usar o Flex : auto para que ele se adapta a largura da tela automaticamente
+
+
+        flex direction - feita no COntainer: row - linha/deitada/ esquerda pra direita, row-reverse - em linha porem da direita para esquerda, column - em pe/ de cima pra baixo, column-reverse - de baixo pra cima
+
+
+        Eixos AXIS - 
+        Row - main-axis: main-start e main-end, cross-axis: cross-start e cross-end
+        
+        Quando esta com row reverse se inverte somente o main o cross nao
+        
+        Quando é em coluna o main e em pé e o cross deitado
+
+        QUando column reverse o main inverte e o cross nao muda
+
+        Flex-wrap - encapsulamento configura o comportamento do container-
+
+        Por padrao vem como nowrap -
+        wrap - Faz com que 
+
+        wrap-reverse
+
+        Todos vao no sentido do eixo cross, se for reverse e vai contra o sentido do cross
+
+
+        Flex-flow = flex-direction + flex-wrap
+
+        flex-flow:row nowrap;
+
+--------------------------------------
+        Grid Layout - Multidimensional
+        trabalha com caixa também - porem em estilo de grade
+
+        Projeto Final - Portifólio para mostrar meus projetos
+
+
