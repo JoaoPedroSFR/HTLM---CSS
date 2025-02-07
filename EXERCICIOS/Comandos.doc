@@ -132,7 +132,35 @@ Aprofundando conhecimentos
 
         Flex-flow = flex-direction + flex-wrap
 
-        flex-flow:row nowrap;
+        flex-flow:row nowrap; 
+
+        justify-content = 
+            flex-start - pega o main-start e gruda o primeiro item nele, o espaço livre fica sempre no final.
+
+            flex-end - o ultimo item vai ser colado no end e o espaço em branco fica no começo(main-start)
+
+            center - calcula o centro do container  e coloca todos os itens no centro e as areas livrem sao distribuidas igualmente nas pontas
+
+            space-between - coloca o primeiro item no inicio e o ultimo no final o restante vai sendo distribuido igualmente
+
+            space-evenly - nao gruda na extremidade e alinha ao centro porem com espaçamento igual no inicio,meio e final
+
+            space-around - divide o espaço do container e centraliza os itens dentro do espaço dividido pela quantidade de elementos dentro do container
+
+        align-itens- usa-se no eixo do cross
+
+            strech - estica os itens ao tamanho do container.
+
+            flex-start - gruda no inicio do eixo cross a parte vazia fica ao final do cross end
+
+            flex-end - gruda os itens no inicio
+
+            center- centraliza os itens
+    
+    Flex-container
+        
+        
+
 
 --------------------------------------
         Grid Layout - Multidimensional
