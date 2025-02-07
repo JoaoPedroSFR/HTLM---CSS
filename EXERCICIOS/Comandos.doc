@@ -110,6 +110,9 @@ Aprofundando conhecimentos
 
         flex direction - feita no COntainer: row - linha/deitada/ esquerda pra direita, row-reverse - em linha porem da direita para esquerda, column - em pe/ de cima pra baixo, column-reverse - de baixo pra cima
 
+        Flex-flow = flex-direction + flex-wrap
+
+        flex-flow:row nowrap; 
 
         Eixos AXIS - 
         Row - main-axis: main-start e main-end, cross-axis: cross-start e cross-end
@@ -130,9 +133,7 @@ Aprofundando conhecimentos
         Todos vao no sentido do eixo cross, se for reverse e vai contra o sentido do cross
 
 
-        Flex-flow = flex-direction + flex-wrap
 
-        flex-flow:row nowrap; 
 
         justify-content = 
             flex-start - pega o main-start e gruda o primeiro item nele, o espaço livre fica sempre no final.
@@ -157,8 +158,22 @@ Aprofundando conhecimentos
 
             center- centraliza os itens
     
-    Flex-container
-        
+    Conteudo empacotado
+
+        align-content - alinha os elementos no eixo transversal mas quando estao empacotados.
+        Se usa com wrap
+
+        strech - padrao, pega a dimensao inteira e divide em partes iguais e estica os itens no tamanho completo das linhas.
+
+        flex-start- coloca todos elementos e gruda no cross-start o branco fina no end.
+
+        flex-end- coloca todos os elementos no cross end os brancos ficam no inicio.
+
+        center - alinham os itens ao centro do cross axis.
+
+        space-between - 
+
+
         
 
 
