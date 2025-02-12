@@ -173,6 +173,32 @@ Aprofundando conhecimentos
 
         space-between - 
 
+        FLEX - ITENS
+
+        Order sempre é 0 - Serve para mudar a ordem dos blocos do menor para o maior.
+
+        align Self - é aplicado aos itens no eixo cross(empe)
+        auto - Herda do pai o alinhamento
+        flexstart
+        flexend
+        center
+        strech - Espaço inteiro
+
+        flex basis- sempre vem com auto
+        o tamanho do elemento varia de acordo com o tamanho do Conteudo
+
+        grow - crescer - padrao 1
+        shrink - encolher - padrao 0
+
+        flex - padrão auto - junção de grow shrink e basis
+
+        flex 0 1 auto é o padrao de flex ou flex initial
+        felx 0 0 auto elementos nao flexiveis é o mais rigido ou flex none
+        flex 1 1 auto totalmente flexivel ou flex auto
+
+        flex 3 o grow do elemento será o valor de grow somente
+
+        
 
         
 
